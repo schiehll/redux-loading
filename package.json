@@ -1,6 +1,6 @@
 {
   "name": "redux-loading",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loading control with Redux",
   "main": "lib/index.js",
   "repository": {
