@@ -9,7 +9,7 @@ const loadingReducer = (state = {
         done: false
       }
     case 'LOADED':
-      const pending = state.pending - 1
+      const pending = state.pending > 0 ? state.pending - 1 : state.pending
       return {
         pending,
         done: pending === 0 ? true : false 
